@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Movie database browser</string>
+    <string name="literal_genres">Genres: </string>
+    <string name="literal_score">Score:</string>
+    <string name="literal_release_date">Release Date: </string>
+    <string name="literal_more_details">Tap for more details </string>
+    <string name="literal_overview">Synopsis: </string>
+    <string name="favourite_button">Favourite </string>
+    <string name="search_button">Search </string>
+    <string name="clear_favourite_button">Clear Favourites</string>
+    <string name="favourites_button">Favourites </string>
+    <string name="next_page_button">next page </string>
+
+</resources>

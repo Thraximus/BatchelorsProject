@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="182sp"
+    android:splitMotionEvents="false">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="155sp"
+        android:layout_height="182sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginBottom="5sp" />
+
+    <TextView
+        android:id="@+id/movieTitleFillable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/genresDetailedLiteral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movieTitleFillable"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="@string/literal_genres" />
+
+    <TextView
+        android:id="@+id/genresFillable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genresDetailedLiteral"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/scoreLiteral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genresFillable"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="@string/literal_score" />
+
+    <TextView
+        android:id="@+id/scoreFillable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genresFillable"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/scoreLiteral"
+        android:layout_toRightOf="@+id/scoreLiteral" />
+
+    <TextView
+        android:id="@+id/releaseDateLiteral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scoreFillable"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="@string/literal_release_date" />
+
+    <TextView
+        android:id="@+id/releaseDateFillable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scoreFillable"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/releaseDateLiteral"
+        android:layout_toRightOf="@+id/releaseDateLiteral" />
+
+    <Button
+        android:id="@+id/moreDetailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/releaseDateFillable"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="@string/literal_more_details" />
+</RelativeLayout>
